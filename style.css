@@ -67,7 +67,7 @@ header .icons a:hover{
     color: #fd6561;
 }
 
-* Home styling */
+/* Home styling */
 
 section{
     padding: 2rem 9%;
@@ -80,4 +80,126 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+
+}
+
+.home .content h1{
+    font-size: 30px;
+    color: #424144;
+}
+
+.home .content p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #424144;
+}
+
+.home .content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: #f63e4e;
+    color: #f3f4f6;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home .content button:hover{
+    background: #424144;
+    
+}
+/* About styling */
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #424144;
+    padding: 1rem;
+    margin:2rem 0;
+    background: rgba(215, 102, 73, 0.05);
+}
+
+.heading span{
+    color: #fd6561;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.about .row .image-container {
+    flex: 1 1 40rem;
+    position: relative;
+
+}
+.about .row .image-container img{
+    width: 100%;
+    border: 1.5rem solid #f3f4f6;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.about .row .content{
+    flex: 1 1 40rem;
+} 
+
+.about .row .content h3{
+  font-size: 3rem;
+  color: #424144;
+
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color: #424144;
+    padding: 0.5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    
+  }
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    color: #f3f4f6;
+    background: #424144;
+    padding: 0.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: #fd6561;
+
+}
+
+
+/* footer */
+
+footer{
+    
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #f63e4e;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
 }
